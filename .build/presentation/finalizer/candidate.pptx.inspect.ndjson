@@ -1,0 +1,190 @@
+{"kind":"deck","id":"pr/5d6fhr","name":"Deck"}
+{"kind":"layout","layoutId":"bd2d09c8-0f5a-4732-a9ef-eac9c66f2894","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"510aad0c-4dbe-469e-809d-8c3cb8a23968","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/rwas47","slide":1,"title":"Система оформления","textShapes":5}
+{"kind":"shape","id":"sh/g3m9w32h","slide":1,"bbox":[0,0,22,720]}
+{"kind":"textbox","id":"sh/f2dsny1w","slide":1,"text":"Система оформления\nслужебных поездок","textPreview":"Система оформления | служебных поездок","textChars":36,"textLines":2,"bbox":[86,142,1030,190]}
+{"kind":"textbox","id":"sh/u14rutkb","slide":1,"text":"Практические работы 1-4","textPreview":"Практические работы 1-4","textChars":23,"textLines":1,"bbox":[92,350,690,56]}
+{"kind":"textbox","id":"sh/t0val8jq","slide":1,"text":"PostgreSQL, Next.js, Express, React","textPreview":"PostgreSQL, Next.js, Express, React","textChars":35,"textLines":1,"bbox":[92,430,780,44]}
+{"kind":"textbox","id":"sh/szm9s32l","slide":1,"text":"ФИО и группа добавляются перед сдачей","textPreview":"ФИО и группа добавляются перед сдачей","textChars":37,"textLines":1,"bbox":[92,603,620,34]}
+{"kind":"textbox","id":"sh/7ydsjy10","slide":1,"text":"2026","textPreview":"2026","textChars":4,"textLines":1,"bbox":[1120,603,90,34]}
+{"kind":"notes","id":"nt/rwas47","slide":1,"text":""}
+{"kind":"slide","id":"sl/0y4ocd","slide":2,"title":"Паспорт проекта","textShapes":8}
+{"kind":"textbox","id":"sh/50j2dorq","slide":2,"text":"Паспорт проекта","textPreview":"Паспорт проекта","textChars":15,"textLines":1,"bbox":[64,36,1090,58]}
+{"kind":"shape","id":"sh/ix8ji9sz","slide":2,"bbox":[64,100,1152,0]}
+{"kind":"textbox","id":"sh/jy1kbe9k","slide":2,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[1180,40,44,36]}
+{"kind":"textbox","id":"sh/wbq1gjat","slide":2,"text":"ПРОБЛЕМА","textPreview":"ПРОБЛЕМА","textChars":8,"textLines":1,"bbox":[68,136,290,30]}
+{"kind":"textbox","id":"sh/hcz294re","slide":2,"text":"Заявки согласуются в письмах и таблицах. Пользователи не видят единый статус, документы теряются, а историю решений трудно проверить.","textPreview":"Заявки согласуются в письмах и таблицах. Пользователи не видят единый статус, документы теряются, а историю решений трудно проверить.","textChars":133,"textLines":1,"bbox":[68,175,500,175]}
+{"kind":"shape","id":"sh/u98je9s3","slide":2,"bbox":[620,150,0,450]}
+{"kind":"textbox","id":"sh/vahk7e98","slide":2,"text":"НАЗНАЧЕНИЕ","textPreview":"НАЗНАЧЕНИЕ","textChars":10,"textLines":1,"bbox":[674,136,300,30]}
+{"kind":"textbox","id":"sh/87q1czax","slide":2,"text":"единая форма заявки и предварительных расходов\nпоследовательное согласование руководителем и бухгалтером\nрабочий список координатора поездок\nистория статусов с автором и временем","textPreview":"единая форма заявки и предварительных расходов | последовательное согласование руководителем и бухгалтером | рабочий список координатора ...","textChars":178,"textLines":4,"bbox":[674,176,500,270]}
+{"kind":"textbox","id":"sh/98zi54ri","slide":2,"text":"РЕЗУЛЬТАТ ПЕРВОЙ ВЕРСИИ","textPreview":"РЕЗУЛЬТАТ ПЕРВОЙ ВЕРСИИ","textChars":23,"textLines":1,"bbox":[674,488,390,30]}
+{"kind":"textbox","id":"sh/h83mdcjy","slide":2,"text":"Сотрудник отправляет заявку, согласующие принимают решение, а PostgreSQL сохраняет данные и ограничения процесса.","textPreview":"Сотрудник отправляет заявку, согласующие принимают решение, а PostgreSQL сохраняет данные и ограничения процесса.","textChars":113,"textLines":1,"bbox":[674,526,500,118]}
+{"kind":"notes","id":"nt/0y4ocd","slide":2,"text":""}
+{"kind":"slide","id":"sl/6zsa24","slide":3,"title":"Пользователи и команда","textShapes":16}
+{"kind":"textbox","id":"sh/gjm94jq1","slide":3,"text":"Пользователи и команда","textPreview":"Пользователи и команда","textChars":22,"textLines":1,"bbox":[64,36,1090,58]}
+{"kind":"shape","id":"sh/fidsbepg","slide":3,"bbox":[64,100,1152,0]}
+{"kind":"textbox","id":"sh/eh4r2t8v","slide":3,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[1180,40,44,36]}
+{"kind":"textbox","id":"sh/pofah87i","slide":3,"text":"ПОЛЬЗОВАТЕЛИ","textPreview":"ПОЛЬЗОВАТЕЛИ","textChars":12,"textLines":1,"bbox":[66,132,260,30]}
+{"kind":"textbox","id":"sh/on6t83qx","slide":3,"text":"Сотрудник","textPreview":"Сотрудник","textChars":9,"textLines":1,"bbox":[72,180,190,36]}
+{"kind":"textbox","id":"sh/3mxsfyps","slide":3,"text":"создает и отслеживает заявку","textPreview":"создает и отслеживает заявку","textChars":28,"textLines":1,"bbox":[274,180,300,48]}
+{"kind":"textbox","id":"sh/2lor6t87","slide":3,"text":"Руководитель","textPreview":"Руководитель","textChars":12,"textLines":1,"bbox":[72,262,190,36]}
+{"kind":"textbox","id":"sh/5sba547e","slide":3,"text":"проверяет служебную необходимость","textPreview":"проверяет служебную необходимость","textChars":33,"textLines":1,"bbox":[274,262,300,48]}
+{"kind":"textbox","id":"sh/4r29wzqt","slide":3,"text":"Бухгалтер","textPreview":"Бухгалтер","textChars":9,"textLines":1,"bbox":[72,344,190,36]}
+{"kind":"textbox","id":"sh/uh4f6xcn","slide":3,"text":"проверяет бюджет","textPreview":"проверяет бюджет","textChars":16,"textLines":1,"bbox":[274,344,300,48]}
+{"kind":"textbox","id":"sh/vidgf2ts","slide":3,"text":"Координатор","textPreview":"Координатор","textChars":11,"textLines":1,"bbox":[72,426,190,36]}
+{"kind":"textbox","id":"sh/gjmx87ud","slide":3,"text":"организует утвержденную поездку","textPreview":"организует утвержденную поездку","textChars":31,"textLines":1,"bbox":[274,426,300,48]}
+{"kind":"textbox","id":"sh/hkfyhcby","slide":3,"text":"Администратор","textPreview":"Администратор","textChars":13,"textLines":1,"bbox":[72,508,190,36]}
+{"kind":"textbox","id":"sh/ilofahcj","slide":3,"text":"управляет ролями и учетными записями","textPreview":"управляет ролями и учетными записями","textChars":36,"textLines":1,"bbox":[274,508,300,48]}
+{"kind":"shape","id":"sh/3mxgj2t4","slide":3,"bbox":[618,150,0,475]}
+{"kind":"textbox","id":"sh/4n6xc7up","slide":3,"text":"ПРОЕКТНЫЕ РОЛИ","textPreview":"ПРОЕКТНЫЕ РОЛИ","textChars":14,"textLines":1,"bbox":[670,132,320,30]}
+{"kind":"textbox","id":"sh/58fylcba","slide":3,"text":"Владелец продукта  требования и приемка\nBackend разработчик  Express API и бизнес-правила\nFrontend разработчик  React-интерфейс\nИнженер данных  PostgreSQL и миграции\nТестировщик и DevOps  проверки и окружение","textPreview":"Владелец продукта  требования и приемка | Backend разработчик  Express API и бизнес-правила | Frontend разработчик  React-интерфейс | Инж...","textChars":208,"textLines":5,"bbox":[670,180,500,320]}
+{"kind":"textbox","id":"sh/q9ofehcv","slide":3,"text":"Если участников меньше пяти, роли совмещаются. ФИО команда вносит перед сдачей.","textPreview":"Если участников меньше пяти, роли совмещаются. ФИО команда вносит перед сдачей.","textChars":79,"textLines":1,"bbox":[670,530,500,82]}
+{"kind":"notes","id":"nt/6zsa24","slide":3,"text":""}
+{"kind":"slide","id":"sl/xhtbuj","slide":4,"title":"Границы первой версии","textShapes":6}
+{"kind":"textbox","id":"sh/1gbqxwvy","slide":4,"text":"Границы первой версии","textPreview":"Границы первой версии","textChars":21,"textLines":1,"bbox":[64,36,1090,58]}
+{"kind":"shape","id":"sh/ed07m1c7","slide":4,"bbox":[64,100,1152,0]}
+{"kind":"textbox","id":"sh/ze98v6ds","slide":4,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[1180,40,44,36]}
+{"kind":"textbox","id":"sh/oj29sbu9","slide":4,"text":"В MVP","textPreview":"В MVP","textChars":5,"textLines":1,"bbox":[82,142,490,48]}
+{"kind":"textbox","id":"sh/9kbq1gvu","slide":4,"text":"вход и роли пользователей\nчерновик заявки с местом, датами и целью\nучастники и статьи расходов\nотправка и два шага согласования\nсписки заявок и история статусов\nбазовые вложения до 10 МБ","textPreview":"вход и роли пользователей | черновик заявки с местом, датами и целью | участники и статьи расходов | отправка и два шага согласования | с...","textChars":186,"textLines":6,"bbox":[82,202,500,390]}
+{"kind":"shape","id":"sh/mhkrq1c3","slide":4,"bbox":[632,142,0,470]}
+{"kind":"textbox","id":"sh/nit8z6do","slide":4,"text":"После MVP","textPreview":"После MVP","textChars":9,"textLines":1,"bbox":[684,142,470,48]}
+{"kind":"textbox","id":"sh/wn29wbul","slide":4,"text":"интеграция с кадровой системой\nавтоматический расчет суточных и курсов валют\nгибкий конструктор маршрутов\nэлектронная подпись\nинтеграции с билетами и гостиницами\nобмен с бухгалтерской системой","textPreview":"интеграция с кадровой системой | автоматический расчет суточных и курсов валют | гибкий конструктор маршрутов | электронная подпись | инт...","textChars":192,"textLines":6,"bbox":[684,202,500,390]}
+{"kind":"notes","id":"nt/xhtbuj","slide":4,"text":""}
+{"kind":"slide","id":"sl/mb36id","slide":5,"title":"Требования к первой версии","textShapes":10}
+{"kind":"textbox","id":"sh/vi50bqp0","slide":5,"text":"Требования к первой версии","textPreview":"Требования к первой версии","textChars":26,"textLines":1,"bbox":[64,36,1090,58]}
+{"kind":"shape","id":"sh/wjeh4v6l","slide":5,"bbox":[64,100,1152,0]}
+{"kind":"textbox","id":"sh/hknid0n6","slide":5,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[1180,40,44,36]}
+{"kind":"textbox","id":"sh/mtczyloj","slide":5,"text":"10","textPreview":"10","textChars":2,"textLines":1,"bbox":[72,128,140,90]}
+{"kind":"textbox","id":"sh/7ulg7qp4","slide":5,"text":"требований P0","textPreview":"требований P0","textChars":13,"textLines":1,"bbox":[72,214,200,40]}
+{"kind":"textbox","id":"sh/8vuh0v6p","slide":5,"text":"5","textPreview":"5","textChars":1,"textLines":1,"bbox":[296,128,140,90]}
+{"kind":"textbox","id":"sh/9g3y9g7a","slide":5,"text":"требований P1","textPreview":"требований P1","textChars":13,"textLines":1,"bbox":[266,214,200,40]}
+{"kind":"shape","id":"sh/ypszu1on","slide":5,"bbox":[506,134,0,480]}
+{"kind":"textbox","id":"sh/zqlg36p8","slide":5,"text":"КЛЮЧЕВЫЕ ФУНКЦИОНАЛЬНЫЕ ТРЕБОВАНИЯ","textPreview":"КЛЮЧЕВЫЕ ФУНКЦИОНАЛЬНЫЕ ТРЕБОВАНИЯ","textChars":34,"textLines":1,"bbox":[554,132,570,30]}
+{"kind":"textbox","id":"sh/3mlcj2do","slide":5,"text":"FR-02  создание и редактирование черновика\nFR-05  отправка только после серверной проверки\nFR-06  решение руководителя с комментарием\nFR-07  финансовое решение бухгалтера\nFR-12  журнал каждой смены статуса","textPreview":"FR-02  создание и редактирование черновика | FR-05  отправка только после серверной проверки | FR-06  решение руководителя с комментарием...","textChars":205,"textLines":5,"bbox":[554,174,620,260]}
+{"kind":"textbox","id":"sh/ilcvqhw3","slide":5,"text":"ИЗМЕРИМЫЕ NFR","textPreview":"ИЗМЕРИМЫЕ NFR","textChars":13,"textLines":1,"bbox":[554,460,350,30]}
+{"kind":"textbox","id":"sh/5o3ulcvu","slide":5,"text":"p95 ответа API не более 2 секунд при 50 пользователях\n100 процентов изменяющих запросов проходят серверную валидацию\nRPO 24 часа и RTO 4 часа для учебного стенда","textPreview":"p95 ответа API не более 2 секунд при 50 пользователях | 100 процентов изменяющих запросов проходят серверную валидацию | RPO 24 часа и RT...","textChars":161,"textLines":3,"bbox":[554,500,620,138]}
+{"kind":"notes","id":"nt/mb36id","slide":5,"text":""}
+{"kind":"slide","id":"sl/d4z4y9","slide":6,"title":"Основные сценарии использования","textShapes":13}
+{"kind":"textbox","id":"sh/at8b61cn","slide":6,"text":"Основные сценарии использования","textPreview":"Основные сценарии использования","textChars":31,"textLines":1,"bbox":[64,36,1090,58]}
+{"kind":"shape","id":"sh/xwju1gve","slide":6,"bbox":[64,100,1152,0]}
+{"kind":"textbox","id":"sh/cvad8but","slide":6,"text":"06","textPreview":"06","textChars":2,"textLines":1,"bbox":[1180,40,44,36]}
+{"kind":"shape","id":"sh/n6hcv6dc","slide":6,"bbox":[290,132,700,500]}
+{"kind":"textbox","id":"sh/258b21cr","slide":6,"text":"Система","textPreview":"Система","textChars":7,"textLines":1,"bbox":[560,142,170,34]}
+{"kind":"textbox","id":"sh/pszuxwv2","slide":6,"text":"Подать заявку","textPreview":"Подать заявку","textChars":13,"textLines":1,"bbox":[390,206,230,84]}
+{"kind":"textbox","id":"sh/o7qt4ruh","slide":6,"text":"Принять решение","textPreview":"Принять решение","textChars":15,"textLines":1,"bbox":[660,206,230,84]}
+{"kind":"textbox","id":"sh/72lc7qdg","slide":6,"text":"Проверить бюджет","textPreview":"Проверить бюджет","textChars":16,"textLines":1,"bbox":[390,350,230,84]}
+{"kind":"textbox","id":"sh/m1svelcv","slide":6,"text":"Организовать поездку","textPreview":"Организовать поездку","textChars":20,"textLines":1,"bbox":[660,350,230,84]}
+{"kind":"textbox","id":"sh/cbuhoval","slide":6,"text":"Просмотреть статус","textPreview":"Просмотреть статус","textChars":18,"textLines":1,"bbox":[520,494,230,84]}
+{"kind":"textbox","id":"sh/xc3yh0b6","slide":6,"text":"Сотрудник","textPreview":"Сотрудник","textChars":9,"textLines":1,"bbox":[62,210,170,72]}
+{"kind":"textbox","id":"sh/a9czmlsf","slide":6,"text":"Бухгалтер","textPreview":"Бухгалтер","textChars":9,"textLines":1,"bbox":[62,356,170,72]}
+{"kind":"textbox","id":"sh/balgfqt0","slide":6,"text":"Руководитель","textPreview":"Руководитель","textChars":12,"textLines":1,"bbox":[1040,210,170,72]}
+{"kind":"textbox","id":"sh/o7uhkbap","slide":6,"text":"Координатор","textPreview":"Координатор","textChars":11,"textLines":1,"bbox":[1040,356,170,72]}
+{"kind":"shape","id":"sh/p83ydgbu","slide":6,"bbox":[232,246,158,2]}
+{"kind":"shape","id":"sh/25sfilsj","slide":6,"bbox":[890,246,150,2]}
+{"kind":"shape","id":"sh/n6lgbqt4","slide":6,"bbox":[890,392,150,0]}
+{"kind":"shape","id":"sh/03axgbad","slide":6,"bbox":[232,392,158,0]}
+{"kind":"textbox","id":"sh/14jy9gby","slide":6,"text":"Статус и историю видят автор, участники и назначенные согласующие","textPreview":"Статус и историю видят автор, участники и назначенные согласующие","textChars":65,"textLines":1,"bbox":[425,584,430,34]}
+{"kind":"notes","id":"nt/d4z4y9","slide":6,"text":""}
+{"kind":"slide","id":"sl/bdxwdc","slide":7,"title":"Архитектура и стек","textShapes":8}
+{"kind":"textbox","id":"sh/snqh87y1","slide":7,"text":"Архитектура и стек","textPreview":"Архитектура и стек","textChars":18,"textLines":1,"bbox":[64,36,1090,58]}
+{"kind":"shape","id":"sh/rmh0z2xg","slide":7,"bbox":[64,100,1152,0]}
+{"kind":"textbox","id":"sh/ql8z6xgv","slide":7,"text":"07","textPreview":"07","textChars":2,"textLines":1,"bbox":[1180,40,44,36]}
+{"kind":"textbox","id":"sh/1cji5cfi","slide":7,"text":"Браузер\nReact UI\nформы и списки","textPreview":"Браузер | React UI | формы и списки","textChars":31,"textLines":3,"bbox":[58,212,240,220]}
+{"kind":"textbox","id":"sh/0bahc7yx","slide":7,"text":"Next.js\nмаршрутизация\nи доставка UI","textPreview":"Next.js | маршрутизация | и доставка UI","textChars":35,"textLines":3,"bbox":[355,212,240,220]}
+{"kind":"textbox","id":"sh/fa1032xs","slide":7,"text":"Express\nREST API\nи бизнес-правила","textPreview":"Express | REST API | и бизнес-правила","textChars":33,"textLines":3,"bbox":[652,212,240,220]}
+{"kind":"textbox","id":"sh/e98zaxg7","slide":7,"text":"PostgreSQL\nтранзакции\nи ограничения","textPreview":"PostgreSQL | транзакции | и ограничения","textChars":35,"textLines":3,"bbox":[949,212,240,220]}
+{"kind":"shape","id":"sh/hgfytsfe","slide":7,"bbox":[298,322,57,0]}
+{"kind":"shape","id":"sh/gf6h0nyt","slide":7,"bbox":[595,322,57,0]}
+{"kind":"shape","id":"sh/mlwvqx07","slide":7,"bbox":[892,322,57,0]}
+{"kind":"textbox","id":"sh/nm5wj21s","slide":7,"text":"Один репозиторий и один серверный контур Node.js","textPreview":"Один репозиторий и один серверный контур Node.js","textChars":48,"textLines":1,"bbox":[300,486,680,44]}
+{"kind":"textbox","id":"sh/8neds7id","slide":7,"text":"Модульный монолит сокращает сложность развертывания, сохраняя разделение UI, API, домена и доступа к данным.","textPreview":"Модульный монолит сокращает сложность развертывания, сохраняя разделение UI, API, домена и доступа к данным.","textChars":108,"textLines":1,"bbox":[190,544,900,78]}
+{"kind":"notes","id":"nt/bdxwdc","slide":7,"text":""}
+{"kind":"slide","id":"sl/7ny13w","slide":8,"title":"Логическая модель данных","textShapes":11}
+{"kind":"textbox","id":"sh/xgjm9gr2","slide":8,"text":"Логическая модель данных","textPreview":"Логическая модель данных","textChars":24,"textLines":1,"bbox":[64,36,1090,58]}
+{"kind":"shape","id":"sh/atsnylsr","slide":8,"bbox":[64,100,1152,0]}
+{"kind":"textbox","id":"sh/bu14769c","slide":8,"text":"08","textPreview":"08","textChars":2,"textLines":1,"bbox":[1180,40,44,36]}
+{"kind":"textbox","id":"sh/kju54vqt","slide":8,"text":"users\nPK id\nemail UQ\nfull_name","textPreview":"users | PK id | email UQ | full_name","textChars":30,"textLines":4,"bbox":[56,170,210,122]}
+{"kind":"textbox","id":"sh/lk3md0re","slide":8,"text":"roles\nPK id\ncode UQ","textPreview":"roles | PK id | code UQ","textChars":19,"textLines":3,"bbox":[56,392,210,104]}
+{"kind":"textbox","id":"sh/yhcn2l8n","slide":8,"text":"departments\nPK id\ncode UQ","textPreview":"departments | PK id | code UQ","textChars":25,"textLines":3,"bbox":[330,150,230,104]}
+{"kind":"textbox","id":"sh/jil4bq98","slide":8,"text":"trip_requests\nPK id\nFK created_by\nFK department\ndates, status","textPreview":"trip_requests | PK id | FK created_by | FK department | dates, status","textChars":61,"textLines":5,"bbox":[500,292,280,166]}
+{"kind":"textbox","id":"sh/8nu58vqp","slide":8,"text":"participants\nPK FK request\nPK FK user\nis_primary","textPreview":"participants | PK FK request | PK FK user | is_primary","textChars":48,"textLines":4,"bbox":[830,138,230,126]}
+{"kind":"textbox","id":"sh/to36h0ra","slide":8,"text":"approval_steps\nFK request\nFK approver\nstep_no, decision","textPreview":"approval_steps | FK request | FK approver | step_no, decision","textChars":55,"textLines":4,"bbox":[910,338,240,142]}
+{"kind":"textbox","id":"sh/tgrm5kfi","slide":8,"text":"expenses\nFK request\ncategory\namount, currency","textPreview":"expenses | FK request | category | amount, currency","textChars":45,"textLines":4,"bbox":[780,520,230,126]}
+{"kind":"textbox","id":"sh/sfilcfex","slide":8,"text":"status_history\nFK request\nFK changed_by\nfrom, to, time","textPreview":"status_history | FK request | FK changed_by | from, to, time","textChars":54,"textLines":4,"bbox":[330,520,250,126]}
+{"kind":"shape","id":"sh/re943axc","slide":8,"bbox":[266,231,234,144]}
+{"kind":"shape","id":"sh/6d03a5wr","slide":8,"bbox":[445,254,195,38]}
+{"kind":"shape","id":"sh/1kbm9kve","slide":8,"bbox":[161,292,0,100]}
+{"kind":"shape","id":"sh/gj25gzet","slide":8,"bbox":[780,201,50,174]}
+{"kind":"shape","id":"sh/fit47ud8","slide":8,"bbox":[780,375,130,34]}
+{"kind":"shape","id":"sh/eh03epwn","slide":8,"bbox":[640,458,255,62]}
+{"kind":"shape","id":"sh/ho7mx0fa","slide":8,"bbox":[455,458,185,62]}
+{"kind":"textbox","id":"sh/wnyl4vep","slide":8,"text":"N:M связи раскрыты через user_roles и trip_participants","textPreview":"N:M связи раскрыты через user_roles и trip_participants","textChars":55,"textLines":1,"bbox":[70,112,560,28]}
+{"kind":"notes","id":"nt/7ny13w","slide":8,"text":""}
+{"kind":"slide","id":"sl/ytcqij","slide":9,"title":"Физическая схема PostgreSQL","textShapes":9}
+{"kind":"textbox","id":"sh/wvehczax","slide":9,"text":"Физическая схема PostgreSQL","textPreview":"Физическая схема PostgreSQL","textChars":27,"textLines":1,"bbox":[64,36,1090,58]}
+{"kind":"shape","id":"sh/valgjutc","slide":9,"bbox":[64,100,1152,0]}
+{"kind":"textbox","id":"sh/a9czapsr","slide":9,"text":"09","textPreview":"09","textChars":2,"textLines":1,"bbox":[1180,40,44,36]}
+{"kind":"textbox","id":"sh/50nyp4be","slide":9,"text":"Целостность  PK, FK, NOT NULL, UNIQUE и CHECK контролируют связи, даты, суммы и статусы.\nНормализация  роли, участники, расходы и решения вынесены в отдельные таблицы. Итог расходов рассчитывает view.\nИндексы  поддерживают очередь согласующего, фильтры по статусу и датам, историю и поиск участника.\nДоступ  trip_app изменяет данные, trip_auditor только читает, а владелец миграций выполняет DDL.","textPreview":"Целостность  PK, FK, NOT NULL, UNIQUE и CHECK контролируют связи, даты, суммы и статусы. | Нормализация  роли, участники, расходы и решен...","textChars":396,"textLines":4,"bbox":[74,145,790,360]}
+{"kind":"shape","id":"sh/kzehgza9","slide":9,"bbox":[894,150,0,450]}
+{"kind":"textbox","id":"sh/jy5gnuto","slide":9,"text":"11","textPreview":"11","textChars":2,"textLines":1,"bbox":[936,176,220,100]}
+{"kind":"textbox","id":"sh/ixwzeps3","slide":9,"text":"таблиц","textPreview":"таблиц","textChars":6,"textLines":1,"bbox":[936,272,220,38]}
+{"kind":"textbox","id":"sh/t47yt4bq","slide":9,"text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[936,350,220,90]}
+{"kind":"textbox","id":"sh/s3yhkja5","slide":9,"text":"представление итогов","textPreview":"представление итогов","textChars":20,"textLines":1,"bbox":[910,440,270,58]}
+{"kind":"textbox","id":"sh/2lkvep0r","slide":9,"text":"0","textPreview":"0","textChars":1,"textLines":1,"bbox":[936,520,220,76]}
+{"kind":"textbox","id":"sh/3mtcnu1c","slide":9,"text":"дублируемых итоговых сумм","textPreview":"дублируемых итоговых сумм","textChars":25,"textLines":1,"bbox":[895,596,300,48]}
+{"kind":"notes","id":"nt/ytcqij","slide":9,"text":""}
+{"kind":"slide","id":"sl/lyh5tg","slide":10,"title":"Проверка SQL-скриптов","textShapes":15}
+{"kind":"textbox","id":"sh/tw7u5wz2","slide":10,"text":"Проверка SQL-скриптов","textPreview":"Проверка SQL-скриптов","textChars":21,"textLines":1,"bbox":[64,36,1090,58]}
+{"kind":"shape","id":"sh/mtgbuh0b","slide":10,"bbox":[64,100,1152,0]}
+{"kind":"textbox","id":"sh/7upc3m1w","slide":10,"text":"10","textPreview":"10","textChars":2,"textLines":1,"bbox":[1180,40,44,36]}
+{"kind":"textbox","id":"sh/krets7i5","slide":10,"text":"Тестовая заявка","textPreview":"Тестовая заявка","textChars":15,"textLines":1,"bbox":[70,135,360,44]}
+{"kind":"textbox","id":"sh/ls7a1cjq","slide":10,"text":"Санкт-Петербург, 12-15 октября 2026","textPreview":"Санкт-Петербург, 12-15 октября 2026","textChars":35,"textLines":1,"bbox":[70,180,500,40]}
+{"kind":"textbox","id":"sh/y5wbqh0f","slide":10,"text":"18 000 ₽","textPreview":"18 000 ₽","textChars":8,"textLines":1,"bbox":[74,268,170,60]}
+{"kind":"textbox","id":"sh/zq5szm10","slide":10,"text":"билеты","textPreview":"билеты","textChars":6,"textLines":1,"bbox":[74,328,170,36]}
+{"kind":"textbox","id":"sh/c3eto7i9","slide":10,"text":"24 000 ₽","textPreview":"24 000 ₽","textChars":8,"textLines":1,"bbox":[264,268,170,60]}
+{"kind":"textbox","id":"sh/x4naxcju","slide":10,"text":"гостиница","textPreview":"гостиница","textChars":9,"textLines":1,"bbox":[264,328,170,36]}
+{"kind":"textbox","id":"sh/5kna10ru","slide":10,"text":"4 000 ₽","textPreview":"4 000 ₽","textChars":7,"textLines":1,"bbox":[454,268,170,60]}
+{"kind":"textbox","id":"sh/4jet8va9","slide":10,"text":"суточные","textPreview":"суточные","textChars":8,"textLines":1,"bbox":[454,328,170,36]}
+{"kind":"shape","id":"sh/3i5szq94","slide":10,"bbox":[622,150,0,470]}
+{"kind":"textbox","id":"sh/ihwb6lsj","slide":10,"text":"46 000 ₽","textPreview":"46 000 ₽","textChars":8,"textLines":1,"bbox":[688,150,450,95]}
+{"kind":"textbox","id":"sh/hgnaxgry","slide":10,"text":"рассчитанный итог тестовых данных","textPreview":"рассчитанный итог тестовых данных","textChars":33,"textLines":1,"bbox":[688,246,450,40]}
+{"kind":"textbox","id":"sh/gfet4bad","slide":10,"text":"ФАКТИЧЕСКИЙ ЗАПУСК","textPreview":"ФАКТИЧЕСКИЙ ЗАПУСК","textChars":18,"textLines":1,"bbox":[684,320,380,30]}
+{"kind":"textbox","id":"sh/velsv69s","slide":10,"text":"001_schema.sql  PASS\n002_seed.sql  PASS\n003_verification.sql  PASS\n004_access_control.sql  PASS","textPreview":"001_schema.sql  PASS | 002_seed.sql  PASS | 003_verification.sql  PASS | 004_access_control.sql  PASS","textChars":95,"textLines":4,"bbox":[684,360,450,190]}
+{"kind":"textbox","id":"sh/udcr2ls7","slide":10,"text":"Отрицательные даты, второй основной участник и отклонение без комментария база не принимает.","textPreview":"Отрицательные даты, второй основной участник и отклонение без комментария база не принимает.","textChars":92,"textLines":1,"bbox":[684,558,470,70]}
+{"kind":"notes","id":"nt/lyh5tg","slide":10,"text":""}
+{"kind":"slide","id":"sl/8ausvx","slide":11,"title":"План разработки и риски","textShapes":17}
+{"kind":"textbox","id":"sh/lonapgn2","slide":11,"text":"План разработки и риски","textPreview":"План разработки и риски","textChars":23,"textLines":1,"bbox":[64,36,1090,58]}
+{"kind":"shape","id":"sh/y1wru1or","slide":11,"bbox":[64,100,1152,0]}
+{"kind":"textbox","id":"sh/zm5sn65c","slide":11,"text":"11","textPreview":"11","textChars":2,"textLines":1,"bbox":[1180,40,44,36]}
+{"kind":"textbox","id":"sh/8re90bmt","slide":11,"text":"ЭТАПЫ","textPreview":"ЭТАПЫ","textChars":5,"textLines":1,"bbox":[64,132,200,30]}
+{"kind":"textbox","id":"sh/9snatgne","slide":11,"text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[70,180,44,44]}
+{"kind":"textbox","id":"sh/mpwrylon","slide":11,"text":"Требования","textPreview":"Требования","textChars":10,"textLines":1,"bbox":[130,180,390,44]}
+{"kind":"textbox","id":"sh/nq5srq58","slide":11,"text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[70,250,44,44]}
+{"kind":"textbox","id":"sh/ovu9or6p","slide":11,"text":"Данные","textPreview":"Данные","textChars":6,"textLines":1,"bbox":[130,250,390,44]}
+{"kind":"textbox","id":"sh/pw3qhwna","slide":11,"text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[70,320,44,44]}
+{"kind":"textbox","id":"sh/5g7i9cra","slide":11,"text":"Серверный каркас","textPreview":"Серверный каркас","textChars":16,"textLines":1,"bbox":[130,320,390,44]}
+{"kind":"textbox","id":"sh/4fy1g7ap","slide":11,"text":"4","textPreview":"4","textChars":1,"textLines":1,"bbox":[70,390,44,44]}
+{"kind":"textbox","id":"sh/jep07294","slide":11,"text":"Пользовательский срез","textPreview":"Пользовательский срез","textChars":21,"textLines":1,"bbox":[130,390,390,44]}
+{"kind":"textbox","id":"sh/itgjexsj","slide":11,"text":"5","textPreview":"5","textChars":1,"textLines":1,"bbox":[70,460,44,44]}
+{"kind":"textbox","id":"sh/tkr2dcr6","slide":11,"text":"Согласование","textPreview":"Согласование","textChars":12,"textLines":1,"bbox":[130,460,390,44]}
+{"kind":"textbox","id":"sh/sji1kral","slide":11,"text":"6","textPreview":"6","textChars":1,"textLines":1,"bbox":[70,530,44,44]}
+{"kind":"textbox","id":"sh/rip0bm9g","slide":11,"text":"Приемка MVP","textPreview":"Приемка MVP","textChars":11,"textLines":1,"bbox":[130,530,390,44]}
+{"kind":"shape","id":"sh/6hgjihsv","slide":11,"bbox":[592,150,0,470]}
+{"kind":"textbox","id":"sh/1or2hwri","slide":11,"text":"ГЛАВНЫЕ РИСКИ","textPreview":"ГЛАВНЫЕ РИСКИ","textChars":13,"textLines":1,"bbox":[642,132,300,30]}
+{"kind":"textbox","id":"sh/gni1orqx","slide":11,"text":"Маршрут согласования  фиксируем два шага в MVP\nРасхождение UI и API  согласуем контракт до формы\nПотеря истории  статус и журнал меняются в одной транзакции\nИзменение схемы  только новые миграции и проверка seed\nУтечка секретов  переменные среды и .env.example","textPreview":"Маршрут согласования  фиксируем два шага в MVP | Расхождение UI и API  согласуем контракт до формы | Потеря истории  статус и журнал меня...","textChars":260,"textLines":5,"bbox":[642,180,540,390]}
+{"kind":"notes","id":"nt/8ausvx","slide":11,"text":""}
+{"kind":"slide","id":"sl/kc3bla","slide":12,"title":"Результат работ 1-4","textShapes":11}
+{"kind":"textbox","id":"sh/6d8ritwn","slide":12,"text":"Результат работ 1-4","textPreview":"Результат работ 1-4","textChars":19,"textLines":1,"bbox":[72,58,760,70]}
+{"kind":"textbox","id":"sh/tgjad8ve","slide":12,"text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[84,170,54,54]}
+{"kind":"textbox","id":"sh/sfqtk3ut","slide":12,"text":"Паспорт проекта, пользователи, MVP и правила команды","textPreview":"Паспорт проекта, пользователи, MVP и правила команды","textChars":52,"textLines":1,"bbox":[162,164,920,70]}
+{"kind":"textbox","id":"sh/fi1sfidk","slide":12,"text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[84,265,54,54]}
+{"kind":"textbox","id":"sh/uhsbmdcz","slide":12,"text":"15 FR, 12 NFR, пять сценариев, архитектура и план","textPreview":"15 FR, 12 NFR, пять сценариев, архитектура и план","textChars":49,"textLines":1,"bbox":[162,259,920,70]}
+{"kind":"textbox","id":"sh/h4jah8va","slide":12,"text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[84,360,54,54]}
+{"kind":"textbox","id":"sh/gjato3up","slide":12,"text":"Логическая модель с 1:1, 1:N и N:M связями","textPreview":"Логическая модель с 1:1, 1:N и N:M связями","textChars":42,"textLines":1,"bbox":[162,354,920,70]}
+{"kind":"textbox","id":"sh/361sjidg","slide":12,"text":"4","textPreview":"4","textChars":1,"textLines":1,"bbox":[84,455,54,54]}
+{"kind":"textbox","id":"sh/25sbqdcv","slide":12,"text":"Физическая схема PostgreSQL, seed и проверенные запросы","textPreview":"Физическая схема PostgreSQL, seed и проверенные запросы","textChars":55,"textLines":1,"bbox":[162,449,920,70]}
+{"kind":"shape","id":"sh/8rq58j69","slide":12,"bbox":[84,575,1070,0]}
+{"kind":"textbox","id":"sh/9sz6ho7u","slide":12,"text":"Следующий шаг","textPreview":"Следующий шаг","textChars":13,"textLines":1,"bbox":[84,602,220,36]}
+{"kind":"textbox","id":"sh/mp8n69o3","slide":12,"text":"Практика 5  серверный каркас, подключение PostgreSQL и первая операция FR-02","textPreview":"Практика 5  серверный каркас, подключение PostgreSQL и первая операция FR-02","textChars":76,"textLines":1,"bbox":[300,594,820,56]}
+{"kind":"notes","id":"nt/kc3bla","slide":12,"text":""}
